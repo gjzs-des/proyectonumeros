@@ -16,4 +16,9 @@ public class TestASumar {
 		fail("No implementado aun");
 	}
 
+	 public void testUnaCifra() {
+	        ASumar sumi = new ASumar();
+	        String resultado = sumi.mostrar("5");
+	        assertEquals("5 = 5",resultado );
+	    }
 }
